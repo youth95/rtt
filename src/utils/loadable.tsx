@@ -1,5 +1,6 @@
 import React from "react";
-import Loadable from "react-loadable";
+
+import loadable from '@/src/libs/loadable/index.tsx';
 
 //通用的过场组件
 export const LoadingComponent = () => {
@@ -8,8 +9,5 @@ export const LoadingComponent = () => {
 
 //过场组件默认采用通用的，若传入了loading，则采用传入的过场组件
 export default (loader: any, loading = LoadingComponent) => {
-  return Loadable({
-    loader,
-    loading,
-  });
+  return loadable(loader, loading);
 };
