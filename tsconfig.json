@@ -27,7 +27,7 @@
   },
   "exclude": [
     "node_modules/",
-    ".next"
+    "templates/",
   ],
   "include": [
     "next-env.d.ts",

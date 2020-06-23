@@ -14,7 +14,8 @@
 * [x] 支持自动生成change log
 * [x] 支持自动tag
 * [x] 支持react-router
-* [x] 支持react-loadable
+* [x] 支持懒加载
+* [x] 支持约定式路由
 
 ## 如何使用
 

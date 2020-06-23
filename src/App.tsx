@@ -1,8 +1,7 @@
 import React from "react";
-import Routers from "@/src/routers";
 
-function App() {
-  return <Routers />;
+function App(props: { children?: React.ReactElement }) {
+  return <div>{props.children}</div>;
 }
 
 export default App;
