@@ -52,8 +52,9 @@ function generatRouter() {
   const result = [];
   // <Route path="/help" component={loadable(() => import("../pages/help/index"))} />
   DFSPath(paths.appPages, str => {
+    const path = relative(paths.appPages, str);
     result.push({
-      path: `/${relative(paths.appPages, str).replace('/index.tsx', '')}`,
+      path: path === 'index.tsx' ? '/' : `/${path.replace('/index.tsx', '')}`,
       import: `../pages/${relative(paths.appPages, str).replace('.tsx', '')}`,
     })
   });
@@ -84,6 +85,9 @@ module.exports.generatRouter = generatRouter;
 module.exports.generatRouterCodeFile = generatRouterCodeFile;
 
 function gen() {
+  if (!fs.existsSync(paths.appTemp)) {
+    fs.mkdirSync(paths.appTemp);
+  }
   copy();
   generatRouterCodeFile();
 }
