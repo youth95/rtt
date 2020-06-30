@@ -7,7 +7,6 @@
 * [x] 支持typescript
 * [x] 支持jest
 * [x] 支持lint
-* [x] 装载了@testing-library/react-hooks
 * [x] 支持docker
 * [x] 支持commit message lint hook
 * [x] 支持commit coverage lint hook
@@ -16,6 +15,8 @@
 * [x] 支持react-router
 * [x] 支持懒加载
 * [x] 支持约定式路由
+* [x] 集成 @testing-library/react-hooks
+* [x] 集成 @emotion/styled @emotion/core
 
 ## 如何使用
 
