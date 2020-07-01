@@ -17,6 +17,7 @@
 * [x] 支持约定式路由
 * [x] 集成 @testing-library/react-hooks
 * [x] 集成 @emotion/styled @emotion/core
+* [x] 集成 antd
 
 ## 如何使用
 
