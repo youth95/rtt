@@ -50,13 +50,13 @@ export function useLoadAble<P = any, R = any>(
         .catch(setError)
         .finally(() => setLoading(false));
     }
-  }, [loading, _fn]);
+  }, [loading, _fn,setLoading]);
 
   useEffect(() => {
     if (preParams.length !== 0) {
       mapLoadFn(fn)(preParams).forEach(f => f());
     }
-  }, [preParams]);
+  }, [preParams,fn]);
 
   return {
     loading,
