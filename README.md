@@ -19,6 +19,7 @@
 * [x] 集成 @emotion/styled @emotion/core
 * [x] 集成 antd
 * [x] 集成 react-use
+* [x] 集成 storybook
 
 ## 如何使用
 

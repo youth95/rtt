@@ -4,7 +4,7 @@ import { useToggle } from "./useToggle";
 export type ID = string | number;
 
 type LoadFn<P, R> = (params: P) => Promise<R>;
-type Fn<P, R> = (p: P) => R
+// type Fn<P, R> = (p: P) => R
 type NoParamLoadFn<R> = () => Promise<R>;
 
 interface LoadAbleDispath<P> {
