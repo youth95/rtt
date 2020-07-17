@@ -1,6 +1,6 @@
 import { useState, useMemo } from 'react';
 
-export type Stask<T> = [number, number, {
+export type Stask<T> = [undefined | T, number, {
   push: (item: T) => void;
   pop: () => void;
   clear: () => void;
