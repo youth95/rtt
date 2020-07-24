@@ -20,6 +20,8 @@
 * [x] 集成 antd
 * [x] 集成 react-use
 * [x] 集成 storybook
+* [x] 集成 immer
+* [x] 集成 react-dnd
 
 ## 如何使用
 
