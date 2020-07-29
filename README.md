@@ -22,6 +22,7 @@
 * [x] 集成 storybook
 * [x] 集成 immer
 * [x] 集成 react-dnd
+* [x] 集成 react-redux
 
 ## 如何使用
 
