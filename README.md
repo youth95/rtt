@@ -23,6 +23,7 @@
 * [x] 集成 immer
 * [x] 集成 react-dnd
 * [x] 集成 react-redux
+* [x] 集成 @reduxjs/toolkit
 
 ## 如何使用
 
